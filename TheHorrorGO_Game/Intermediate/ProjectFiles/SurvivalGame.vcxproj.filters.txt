@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\SurvivalGame.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{40A69AC5-40B3-4EC5-8A00-97103C272A8C}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\SurvivalGame.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\SurvivalGameEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{3684C956-1270-49DF-92B5-9FAD3D1961FB}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\SurvivalGame">
+			<UniqueIdentifier>{A2B12D49-E325-416D-BCA1-535E3AF640BA}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Source\SurvivalGame\STypes.h">
+			<Filter>Source\SurvivalGame</Filter>
+		</ClInclude >
+		<None Include="..\..\Source\SurvivalGame\SurvivalGame.Build.cs">
+			<Filter>Source\SurvivalGame</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\SurvivalGame\SurvivalGame.cpp">
+			<Filter>Source\SurvivalGame</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\SurvivalGame\SurvivalGame.h">
+			<Filter>Source\SurvivalGame</Filter>
+		</ClInclude >
+		<Filter Include="Source\SurvivalGame\Private">
+			<UniqueIdentifier>{49574484-ECEB-4B72-914E-5CADB18996DF}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source\SurvivalGame\Private\AI">
+			<UniqueIdentifier>{20F88E35-C3B9-4418-ACFA-C9CD3380B942}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\SurvivalGame\Private\AI\BTTask_FindBotWaypoint.cpp">
+			<Filter>Source\SurvivalGame\Private\AI</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\SurvivalGame\Private\AI\BTTask_FindPatrolLocation.cpp">
+			<Filter>Source\SurvivalGame\Private\AI</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\SurvivalGame\Private\AI\SBotWaypoint.cpp">
+			<Filter>Source\SurvivalGame\Private\AI</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\SurvivalGame\Private\AI\SZombieAIController.cpp">
+			<Filter>Source\SurvivalGame\Private\AI</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\SurvivalGame\Private\AI\SZombieCharacter.cpp">
+			<Filter>Source\SurvivalGame\Private\AI</Filter>
+		</ClCompile >
+		<Filter Include="Source\SurvivalGame\Private\Components">
+			<UniqueIdentifier>{A9941194-8810-4F68-91EA-880C2AC9AA03}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\SurvivalGame\Private\Components\SCarryObjectComponent.cpp">
+			<Filter>Source\SurvivalGame\Private\Components</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\SurvivalGame\Private\Components\SCharacterMovementComponent.cpp">
+			<Filter>Source\SurvivalGame\Private\Components</Filter>
+		</ClCompile >
+		<Filter Include="Source\SurvivalGame\Private\Editor">
+			<UniqueIdentifier>{9193C59D-22D7-43F3-853A-C4B3CE042B22}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\SurvivalGame\Private\Editor\SoundNodeLocalPlayer.cpp">
+			<Filter>Source\SurvivalGame\Private\Editor</Filter>
+		</ClCompile >
+		<Filter Include="Source\SurvivalGame\Private\Items">
+			<UniqueIdentifier>{86EA4282-2224-4BF5-BB2E-7EEF6BD25A56}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\SurvivalGame\Private\Items\SBombActor.cpp">
+			<Filter>Source\SurvivalGame\Private\Items</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\SurvivalGame\Private\Items\SConsumableActor.cpp">
+			<Filter>Source\SurvivalGame\Private\Items</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\SurvivalGame\Private\Items\SDamageType.cpp">
+			<Filter>Source\SurvivalGame\Private\Items</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\SurvivalGame\Private\Items\SFlashlight.cpp">
+			<Filter>Source\SurvivalGame\Private\Items</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\SurvivalGame\Private\Items\SImpactEffect.cpp">
+			<Filter>Source\SurvivalGame\Private\Items</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\SurvivalGame\Private\Items\SPickupActor.cpp">
+			<Filter>Source\SurvivalGame\Private\Items</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\SurvivalGame\Private\Items\SUsableActor.cpp">
+			<Filter>Source\SurvivalGame\Private\Items</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\SurvivalGame\Private\Items\SWeapon.cpp">
+			<Filter>Source\SurvivalGame\Private\Items</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\SurvivalGame\Private\Items\SWeaponInstant.cpp">
+			<Filter>Source\SurvivalGame\Private\Items</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\SurvivalGame\Private\Items\SWeaponPickup.cpp">
+			<Filter>Source\SurvivalGame\Private\Items</Filter>
+		</ClCompile >
+		<Filter Include="Source\SurvivalGame\Private\Mutators">
+			<UniqueIdentifier>{4CA36D4A-B8CB-49E8-B9A0-DFBC4A9913F6}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\SurvivalGame\Private\Mutators\SMutator.cpp">
+			<Filter>Source\SurvivalGame\Private\Mutators</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\SurvivalGame\Private\Mutators\SMutator_WeaponReplacement.cpp">
+			<Filter>Source\SurvivalGame\Private\Mutators</Filter>
+		</ClCompile >
+		<Filter Include="Source\SurvivalGame\Private\Player">
+			<UniqueIdentifier>{5DB5109E-AABD-4CDF-8D5B-136200AB3774}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\SurvivalGame\Private\Player\SBaseCharacter.cpp">
+			<Filter>Source\SurvivalGame\Private\Player</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\SurvivalGame\Private\Player\SCharacter.cpp">
+			<Filter>Source\SurvivalGame\Private\Player</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\SurvivalGame\Private\Player\SLocalPlayer.cpp">
+			<Filter>Source\SurvivalGame\Private\Player</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\SurvivalGame\Private\Player\SPlayerCameraManager.cpp">
+			<Filter>Source\SurvivalGame\Private\Player</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\SurvivalGame\Private\Player\SPlayerController.cpp">
+			<Filter>Source\SurvivalGame\Private\Player</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\SurvivalGame\Private\Player\SPlayerState.cpp">
+			<Filter>Source\SurvivalGame\Private\Player</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\SurvivalGame\Private\Player\SSpectatorPawn.cpp">
+			<Filter>Source\SurvivalGame\Private\Player</Filter>
+		</ClCompile >
+		<Filter Include="Source\SurvivalGame\Private\UI">
+			<UniqueIdentifier>{740B0817-4539-4B60-A1CB-64879EB9786B}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\SurvivalGame\Private\UI\SHUD.cpp">
+			<Filter>Source\SurvivalGame\Private\UI</Filter>
+		</ClCompile >
+		<Filter Include="Source\SurvivalGame\Private\World">
+			<UniqueIdentifier>{23F07B78-0965-4A8A-A619-9DA6B9569907}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\SurvivalGame\Private\World\SCoopGameMode.cpp">
+			<Filter>Source\SurvivalGame\Private\World</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\SurvivalGame\Private\World\SGameMode.cpp">
+			<Filter>Source\SurvivalGame\Private\World</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\SurvivalGame\Private\World\SGameState.cpp">
+			<Filter>Source\SurvivalGame\Private\World</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\SurvivalGame\Private\World\SOpenWorldGameMode.cpp">
+			<Filter>Source\SurvivalGame\Private\World</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\SurvivalGame\Private\World\SPlayerStart.cpp">
+			<Filter>Source\SurvivalGame\Private\World</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\SurvivalGame\Private\World\STimeOfDayManager.cpp">
+			<Filter>Source\SurvivalGame\Private\World</Filter>
+		</ClCompile >
+		<Filter Include="Source\SurvivalGame\Public">
+			<UniqueIdentifier>{A510F4E4-E288-43A1-88C6-6FFD728F8257}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source\SurvivalGame\Public\AI">
+			<UniqueIdentifier>{8ACB55C9-F5A5-4799-A58A-85DF31A40A01}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Source\SurvivalGame\Public\AI\BTTask_FindBotWaypoint.h">
+			<Filter>Source\SurvivalGame\Public\AI</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\SurvivalGame\Public\AI\BTTask_FindPatrolLocation.h">
+			<Filter>Source\SurvivalGame\Public\AI</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\SurvivalGame\Public\AI\SBotWaypoint.h">
+			<Filter>Source\SurvivalGame\Public\AI</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\SurvivalGame\Public\AI\SZombieAIController.h">
+			<Filter>Source\SurvivalGame\Public\AI</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\SurvivalGame\Public\AI\SZombieCharacter.h">
+			<Filter>Source\SurvivalGame\Public\AI</Filter>
+		</ClInclude >
+		<Filter Include="Source\SurvivalGame\Public\Components">
+			<UniqueIdentifier>{8703BC74-01B6-4A7F-BFB1-005506DADFDE}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Source\SurvivalGame\Public\Components\SCarryObjectComponent.h">
+			<Filter>Source\SurvivalGame\Public\Components</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\SurvivalGame\Public\Components\SCharacterMovementComponent.h">
+			<Filter>Source\SurvivalGame\Public\Components</Filter>
+		</ClInclude >
+		<Filter Include="Source\SurvivalGame\Public\Editor">
+			<UniqueIdentifier>{A72742DD-2E06-4458-9A36-CEA8D1D4E77A}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Source\SurvivalGame\Public\Editor\SoundNodeLocalPlayer.h">
+			<Filter>Source\SurvivalGame\Public\Editor</Filter>
+		</ClInclude >
+		<Filter Include="Source\SurvivalGame\Public\Items">
+			<UniqueIdentifier>{D3D8EBFA-D011-477A-A24B-74BE2263241B}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Source\SurvivalGame\Public\Items\SBombActor.h">
+			<Filter>Source\SurvivalGame\Public\Items</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\SurvivalGame\Public\Items\SConsumableActor.h">
+			<Filter>Source\SurvivalGame\Public\Items</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\SurvivalGame\Public\Items\SDamageType.h">
+			<Filter>Source\SurvivalGame\Public\Items</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\SurvivalGame\Public\Items\SFlashlight.h">
+			<Filter>Source\SurvivalGame\Public\Items</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\SurvivalGame\Public\Items\SImpactEffect.h">
+			<Filter>Source\SurvivalGame\Public\Items</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\SurvivalGame\Public\Items\SPickupActor.h">
+			<Filter>Source\SurvivalGame\Public\Items</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\SurvivalGame\Public\Items\SUsableActor.h">
+			<Filter>Source\SurvivalGame\Public\Items</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\SurvivalGame\Public\Items\SWeapon.h">
+			<Filter>Source\SurvivalGame\Public\Items</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\SurvivalGame\Public\Items\SWeaponInstant.h">
+			<Filter>Source\SurvivalGame\Public\Items</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\SurvivalGame\Public\Items\SWeaponPickup.h">
+			<Filter>Source\SurvivalGame\Public\Items</Filter>
+		</ClInclude >
+		<Filter Include="Source\SurvivalGame\Public\Mutators">
+			<UniqueIdentifier>{27C19CBB-8A5D-4CEB-89EF-BC0D318E909D}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Source\SurvivalGame\Public\Mutators\SMutator.h">
+			<Filter>Source\SurvivalGame\Public\Mutators</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\SurvivalGame\Public\Mutators\SMutator_WeaponReplacement.h">
+			<Filter>Source\SurvivalGame\Public\Mutators</Filter>
+		</ClInclude >
+		<Filter Include="Source\SurvivalGame\Public\Player">
+			<UniqueIdentifier>{4796DE5E-A31F-4BE6-A9C2-417C30C9B537}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Source\SurvivalGame\Public\Player\SBaseCharacter.h">
+			<Filter>Source\SurvivalGame\Public\Player</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\SurvivalGame\Public\Player\SCharacter.h">
+			<Filter>Source\SurvivalGame\Public\Player</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\SurvivalGame\Public\Player\SLocalPlayer.h">
+			<Filter>Source\SurvivalGame\Public\Player</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\SurvivalGame\Public\Player\SPlayerCameraManager.h">
+			<Filter>Source\SurvivalGame\Public\Player</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\SurvivalGame\Public\Player\SPlayerController.h">
+			<Filter>Source\SurvivalGame\Public\Player</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\SurvivalGame\Public\Player\SPlayerState.h">
+			<Filter>Source\SurvivalGame\Public\Player</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\SurvivalGame\Public\Player\SSpectatorPawn.h">
+			<Filter>Source\SurvivalGame\Public\Player</Filter>
+		</ClInclude >
+		<Filter Include="Source\SurvivalGame\Public\UI">
+			<UniqueIdentifier>{3660B008-6EF2-4C57-8086-05A878CB4BCA}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Source\SurvivalGame\Public\UI\SHUD.h">
+			<Filter>Source\SurvivalGame\Public\UI</Filter>
+		</ClInclude >
+		<Filter Include="Source\SurvivalGame\Public\World">
+			<UniqueIdentifier>{A2B5DC0D-A246-4085-84ED-4B7DD72ADD71}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Source\SurvivalGame\Public\World\SCoopGameMode.h">
+			<Filter>Source\SurvivalGame\Public\World</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\SurvivalGame\Public\World\SGameMode.h">
+			<Filter>Source\SurvivalGame\Public\World</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\SurvivalGame\Public\World\SGameState.h">
+			<Filter>Source\SurvivalGame\Public\World</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\SurvivalGame\Public\World\SOpenWorldGameMode.h">
+			<Filter>Source\SurvivalGame\Public\World</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\SurvivalGame\Public\World\SPlayerStart.h">
+			<Filter>Source\SurvivalGame\Public\World</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\SurvivalGame\Public\World\STimeOfDayManager.h">
+			<Filter>Source\SurvivalGame\Public\World</Filter>
+		</ClInclude >
+		<Filter Include="Source\SurvivalGame\Resources">
+			<UniqueIdentifier>{82BD4D49-9E33-4A96-B5EF-B2087D81FB23}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source\SurvivalGame\Resources\Windows">
+			<UniqueIdentifier>{08B2AED2-104A-4444-A07B-BB916F9729C8}</UniqueIdentifier>
+		</Filter>
+		<ResourceCompile Include="..\..\Source\SurvivalGame\Resources\Windows\SurvivalGame.rc">
+			<Filter>Source\SurvivalGame\Resources\Windows</Filter>
+		</ResourceCompile >
+		<Filter Include="Plugins">
+			<UniqueIdentifier>{5C9AE550-F240-43D5-BEB3-48B3DCA3907C}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\ExtendedRifleMod">
+			<UniqueIdentifier>{628BC091-58E1-4DF1-929F-0678E9A283B1}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\ExtendedRifleMod\ExtendedRifleMod.uplugin">
+			<Filter>Plugins\ExtendedRifleMod</Filter>
+		</None >
+		<Filter Include="Plugins\MyFlashlightMod">
+			<UniqueIdentifier>{EFCA3694-22CC-4F5F-898B-74041054C76C}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\MyFlashlightMod\MyFlashlightMod.uplugin">
+			<Filter>Plugins\MyFlashlightMod</Filter>
+		</None >
+	</ItemGroup>
+</Project>
